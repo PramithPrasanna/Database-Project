@@ -11,6 +11,8 @@ This software offers a comprehensive solution for employee management. Administr
 ### Dependencies
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
+- XAMPP
+- myphpadmin
 - Web server software like Apache or Nginx
 - Composer for managing PHP dependencies
 
