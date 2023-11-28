@@ -29,7 +29,7 @@ This software offers a comprehensive solution for employee management. Administr
 
 ## Authors
 
-Pramith Prasanna (pxp200035)
-Rishabh Vemparala (rxv200022)
-Om Hirpara (omh200000)
-Rohit Ramarathinam (rxr200060)
+- Pramith Prasanna (pxp200035)
+- Rishabh Vemparala (rxv200022)
+- Om Hirpara (omh200000)
+- Rohit Ramarathinam (rxr200060)
