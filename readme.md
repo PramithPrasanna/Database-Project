@@ -26,3 +26,10 @@ This software offers a comprehensive solution for employee management. Administr
 - Access the application via a web browser at `http://localhost/DB6/css/login.php`.
 - Log in as an administrator to manage employees and projects.
 - Log in as an employee to view assigned projects and personal information.
+
+## Authors
+
+Pramith Prasanna (pxp200035)
+Rishabh Vemparala (rxv200022)
+Om Hirpara (omh200000)
+Rohit Ramarathinam (rxr200060)
