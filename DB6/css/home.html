@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .custom-button {
+            display: inline-block;
+            width: 300px;
+            height: 60px; 
+            padding: 20px 40px;
+            margin: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        /* Button Colors */
+        .button-blue { background-color: #3498db; color: #fff; }
+        .button-green { background-color: #2ecc71; color: #fff; }
+        .button-yellow { background-color: #f39c12; color: #fff; }
+        .button-orange { background-color: #e67e22; color: #fff; }
+        .button-red { background-color: #e74c3c; color: #fff; }
+        .button-purple { background-color: #9b59b6; color: #fff; }
+        .button-pink { background-color: #e91e63; color: #fff; }
+
+        /* Hover Effect */
+        .custom-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Select table you would like to edit</div>
+
+    <div class="button-container">
+        <a href="tables/employee_table.php" class="custom-button button-blue">Employee Table</a>
+        <a href="tables/department_table.php" class="custom-button button-green">Department Table</a>
+        <a href="tables/project_table.php" class="custom-button button-yellow">Project Table</a>
+        <a href="tables/team_table.php" class="custom-button button-orange">Team Table</a>
+        <a href="tables/team_project_table.php" class="custom-button button-red">Team Project Table</a>
+        <a href="tables/employee_project_table.php" class="custom-button button-purple">Employee Project Table</a>
+        <a href="tables/department_team_table.php" class="custom-button button-pink">Department Team Table</a>
+    </div>
+
+</body>
+</html>
